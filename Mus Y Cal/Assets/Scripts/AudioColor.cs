@@ -11,24 +11,32 @@ public class AudioColor : AudioSyncer
 	private int m_randomIndx;
 	private Color m_img;
 
+    private Renderer holi;
+    public static bool spawn;
+
 
     private void Start()
 	{
-		m_img = GetComponent<Renderer>().material.color;
-       
+        spawn = false;
+		holi = GetComponent<Renderer>();
+        m_img = GetComponent<Renderer>().material.color;
 	}
 
 
 	public override void OnBeat()
 	{
-        print(m_img);
+        //print(m_img);
 		base.OnBeat();
+        spawn = true;
 
-		Color _c = RandomColor();
+        holi.material.color = m_img;
+
+        Color _c = RandomColor();
 
 		StopCoroutine("MoveToColor");
 		StartCoroutine("MoveToColor", _c);
 	}
+
 
     public override void OnUpdate()
 	{
@@ -36,8 +44,10 @@ public class AudioColor : AudioSyncer
 		base.OnUpdate();
 
 		if (m_isBeat) return;
+      
 
 		m_img = Color.Lerp(m_img, restColor, restSmoothTime*Time.deltaTime);
+        
 	}
 
     	private Color RandomColor()
