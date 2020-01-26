@@ -59,6 +59,8 @@
      <Compile Include="Assets\Scripts\AudioScale.cs" />
      <Compile Include="Assets\Scripts\AudioSpectrum.cs" />
      <Compile Include="Assets\Scripts\AudioSyncer.cs" />
+     <Compile Include="Assets\Scripts\MusicScript.cs" />
+     <Compile Include="Assets\Scripts\ScaleCube.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Angie/Desktop/MaxIsil/MUS Y CAL/Mus Y Cal/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

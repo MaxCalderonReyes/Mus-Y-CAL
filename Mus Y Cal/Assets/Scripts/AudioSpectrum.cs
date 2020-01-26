@@ -16,7 +16,7 @@ public class AudioSpectrum : MonoBehaviour
     void Update()
     {
      
-        AudioListener.GetSpectrumData(_audioSpectrum,0,FFTWindow.Rectangular);
+        AudioListener.GetSpectrumData(_audioSpectrum,0,FFTWindow.Blackman);
         if(_audioSpectrum!=null && _audioSpectrum.Length>0){
             ValueSpectrum=_audioSpectrum[0] *100;
         }
