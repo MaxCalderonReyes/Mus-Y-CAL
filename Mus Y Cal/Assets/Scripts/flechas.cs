@@ -12,7 +12,7 @@ public class flechas : MonoBehaviour
 
     void Start()
     {
-        
+        Destroy(gameObject, 6);
     }
 
 
