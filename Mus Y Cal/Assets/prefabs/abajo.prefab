@@ -94,3 +94,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   check: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3, type: 3}
   direccion: 
+  Ins: {fileID: 1225937770481685235, guid: 9c417b4b7399df846a8fd1a0a5d9e926, type: 3}
+  AE: {fileID: 1225937770481685240, guid: 9c417b4b7399df846a8fd1a0a5d9e926, type: 3}

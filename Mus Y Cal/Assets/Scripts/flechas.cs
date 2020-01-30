@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,10 +10,12 @@ public class flechas : MonoBehaviour
     private int state;
     public string direccion;
     private float distance;
+    public instantiante Ins;
+    public ArrayExpansion AE;
 
     void Start()
     {
-        Destroy(gameObject, 6);
+        //Destroy(gameObject, 6);
     }
 
 
@@ -24,13 +27,15 @@ public class flechas : MonoBehaviour
         print(state);
 
 
-        /*
-        if(transform.position.x <= -1.6f)
+        
+        if(transform.position.x <= -11.7)
         {
+            //AE.RemoveAt(ref Ins.ordenPre, Ins.ordenPre.Length - 1);
+            Array.Resize(ref Ins.ordenPre, 0);
             state = 0;
             Destroy(gameObject);
         }
-       */
+       
         if(distance >= -0.62f && distance <= 0.62f)
         {
             state = 3;
