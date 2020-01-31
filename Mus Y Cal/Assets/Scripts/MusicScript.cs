@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class MusicScript : MonoBehaviour
 {
-    AudioSource  AudioSource;
+  public  AudioSource  AudioSource;
    public static float[] spectrum=new float[512];
    public static float[] freqband=new float[8];
+    private float timer = 0;
     void Start()
     {
         AudioSource=GetComponent<AudioSource>();
@@ -15,7 +16,14 @@ public class MusicScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;
+        Debug.Log(timer);
         GEtSpectrumData();
+        if (timer > 0.8 && !AudioSource.isPlaying )
+        {
+            AudioSource.Play();
+        }
+      
     }
     public void GEtSpectrumData(){
         AudioSource.GetSpectrumData(spectrum,0,FFTWindow.Blackman);

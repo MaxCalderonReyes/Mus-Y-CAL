@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\flechas.cs" />
     <Compile Include="Assets\Scripts\flechasManager.cs" />
     <Compile Include="Assets\Scripts\instantiante.cs" />
+    <Compile Include="Assets\Scripts\Json.cs" />
     <Compile Include="Assets\Scripts\MusicScript.cs" />
     <Compile Include="Assets\Scripts\ScaleCube.cs" />
     <Reference Include="Unity.Timeline.Editor">
