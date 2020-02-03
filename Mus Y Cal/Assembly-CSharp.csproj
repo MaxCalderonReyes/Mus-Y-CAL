@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\instantiante.cs" />
     <Compile Include="Assets\Scripts\Json.cs" />
     <Compile Include="Assets\Scripts\MusicScript.cs" />
+    <Compile Include="Assets\Scripts\prove.cs" />
     <Compile Include="Assets\Scripts\ScaleCube.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Angie/Downloads/Mus-Y-CAL-master/Mus-Y-CAL-master/Mus Y Cal/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

@@ -3,21 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
-
+[System.Serializable]
 public class instantiante : MonoBehaviour
 {
+
     public GameObject[] arrow;
     public int beat;
     public int ScaleNormal, ExtraScale;
     private int random;
     private bool Shoot;
     //Mientras mas bajo sea el numero mas rapido se instancian
-    public float MaxTimeBeat,MinTimeBeat;
+    public float MaxTimeBeat, MinTimeBeat;
     //Obtener datos de la musica en jason
     private string Path;
-   public List<float> BetasToSong;
-    public int count = 0;
-    
+    public List<float> BetasToSong;
+    public List<prove> CollecionSong;
+    //Temporales
+
+
+
+    private int count = 0;
+ 
+   
     void Start()
     {
      
@@ -31,16 +38,29 @@ public class instantiante : MonoBehaviour
     {
       
         float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
-        //  BetasToSong.Add(sound);
+       // BetasToSong.Add(sound);
         //  Json DT = new Json(BetasToSong);
         //  string dtos = JsonUtility.ToJson(DT,false);
-        //  File.WriteAllText(Path, dtos);
+         // File.WriteAllText(Path, dtos);
+        //////////////////////////////////
+
       string Mus=  File.ReadAllText(Path);
         Json beats = JsonUtility.FromJson<Json>(Mus);
         
        float current = beats.Song[count];
+       prove.instance.temporal  = beats.Song;
+       
         count += 1;
         
+      // CollecionSong[0] = prove.instance.temporal;
+     
+     //  Json TEMP = new Json(CollecionSong, 0);
+      //  string Dato = JsonUtility.ToJson(TEMP, false);
+      //  File.WriteAllText(Path, Dato);
+      
+       
+
+
         if (Shoot)
         {
        
@@ -84,3 +104,4 @@ public class instantiante : MonoBehaviour
         Shoot = true;
     }
 }
+

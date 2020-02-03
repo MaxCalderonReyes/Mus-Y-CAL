@@ -17,7 +17,7 @@ public class MusicScript : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        Debug.Log(timer);
+
         GEtSpectrumData();
         if (timer > 0.8 && !AudioSource.isPlaying )
         {
