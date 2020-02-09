@@ -33,7 +33,7 @@ public class flechas : MonoBehaviour
             Destroy(gameObject);
         }
        */
-        if(distance >= -0.62f && distance <= 0.62f)
+        if(distance >= 0f && distance <= 0.62f)
         {
             state = 3;
         }
@@ -53,7 +53,7 @@ public class flechas : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
-                
+                Destroy(gameObject);
             }
         }
 
@@ -61,7 +61,7 @@ public class flechas : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.DownArrow))
             {
-
+                Destroy(gameObject);
             }
         }
 
