@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScaleCube : MonoBehaviour
 {
@@ -9,19 +10,19 @@ public class ScaleCube : MonoBehaviour
    private Color _CubColor;
   public int band;
   public float startScale,scaleMultiplayer;
-  private Renderer TempColor;
+  private  Image TempColor;
 
   
     void Start()
     {	  
-      TempColor = GetComponent<Renderer>();
-        _CubColor=GetComponent<Renderer>().material.color;
+      TempColor = GetComponent<Image>();
+        _CubColor=GetComponent<Color>();
     }
 
     // Update is called once per frame
     void Update()
     {
-      TempColor.material.color=_CubColor;
+      TempColor.color=_CubColor;
         transform.localScale=new Vector3(transform.localScale.x,(MusicScript.spectrum[band]*scaleMultiplayer)+startScale,transform.localScale.z);
 
        if(transform.localScale.y>1.0f){

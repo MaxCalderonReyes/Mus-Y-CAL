@@ -9,17 +9,19 @@ public class flechas : MonoBehaviour
     private int state;
     public string direccion;
     private float distance;
-
+    private float timer = 0;
     void Start()
     {
-        
+        Destroy(gameObject, 6);
     }
 
 
     void Update()
     {
+        timer += Time.deltaTime;
         transform.position = new Vector3(transform.position.x - 7 * Time.deltaTime, transform.position.y, transform.position.z);
         distance = Vector3.Distance(check.position, transform.position);
+     
         //print(distance);
         print(state);
 
@@ -31,7 +33,7 @@ public class flechas : MonoBehaviour
             Destroy(gameObject);
         }
        */
-        if(distance >= -0.62f && distance <= 0.62f)
+        if(distance >= 0f && distance <= 0.62f)
         {
             state = 3;
         }
@@ -51,7 +53,7 @@ public class flechas : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
-                
+                Destroy(gameObject);
             }
         }
 
@@ -59,7 +61,7 @@ public class flechas : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.DownArrow))
             {
-
+                Destroy(gameObject);
             }
         }
 

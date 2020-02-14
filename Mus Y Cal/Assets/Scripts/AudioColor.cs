@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AudioColor : AudioSyncer
 {
@@ -9,17 +10,18 @@ public class AudioColor : AudioSyncer
 	public Color restColor;
 
 	private int m_randomIndx;
-	private Color m_img;
-
-    private Renderer holi;
+	private Image m_img;
+   
+  
     public static bool spawn;
 
 
     private void Start()
 	{
         spawn = false;
-		holi = GetComponent<Renderer>();
-        m_img = GetComponent<Renderer>().material.color;
+	
+        m_img = GetComponent<Image>();
+    
 	}
 
 
@@ -29,7 +31,7 @@ public class AudioColor : AudioSyncer
 		base.OnBeat();
         spawn = true;
 
-        holi.material.color = m_img;
+       
 
         Color _c = RandomColor();
 
@@ -46,7 +48,7 @@ public class AudioColor : AudioSyncer
 		if (m_isBeat) return;
       
 
-		m_img = Color.Lerp(m_img, restColor, restSmoothTime*Time.deltaTime);
+		m_img.color = Color.Lerp(m_img.color, restColor, restSmoothTime*Time.deltaTime);
         
 	}
 
@@ -60,7 +62,7 @@ public class AudioColor : AudioSyncer
     
 	private IEnumerator MoveToColor(Color _target)
 	{
-		Color _curr = m_img;
+		Color _curr = m_img.color;
 		Color _initial = _curr;
 		float _timer = 0;
 		
@@ -69,7 +71,7 @@ public class AudioColor : AudioSyncer
 			_curr = Color.Lerp(_initial, _target, _timer / timeToBeat);
 			_timer += Time.deltaTime;
 
-			m_img = _curr;
+			m_img.color = _curr;
 
 			yield return null;
 		}
