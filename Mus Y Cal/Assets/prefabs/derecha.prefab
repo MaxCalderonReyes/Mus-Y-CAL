@@ -93,4 +93,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   check: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3, type: 3}
-  direccion: 
+  direccion: Right
+  active: 0

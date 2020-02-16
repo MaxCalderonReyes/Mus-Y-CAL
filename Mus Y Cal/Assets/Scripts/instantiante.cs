@@ -15,7 +15,9 @@ public class instantiante : MonoBehaviour
     public int ScaleNormal, ExtraScale;
     private int random;
     private bool Shoot;
-  
+
+    public List<flechas> amd = new List<flechas>();
+
     //Mientras mas bajo sea el numero mas rapido se instancian
     public float MaxTimeBeat, MinTimeBeat;
     //Obtener datos de la musica en jason
@@ -38,38 +40,63 @@ public class instantiante : MonoBehaviour
       
     }
 
+    void vegas()
+    {
+        foreach (flechas go in FindObjectsOfType<flechas>())
+        {
+            bool existe = amd.Contains(go);
+            if (!existe)
+            {
+                amd.Add(go);
+            }
+        }
+
+        for (int i = 0; i < amd.Count; i++)
+        {
+                if(i == 0)
+                {
+                    amd[i].active = true;
+                }
+                else
+                {
+                    amd[i].active = false;
+                }
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-      
-      // float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
-      //   BetasToSong.Add(sound);
-      //    Json DT = new Json(BetasToSong);
-      //   string dtos = JsonUtility.ToJson(DT, false);
-      //    File.WriteAllText(path, dtos);
+
+        // float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
+        //   BetasToSong.Add(sound);
+        //    Json DT = new Json(BetasToSong);
+        //   string dtos = JsonUtility.ToJson(DT, false);
+        //    File.WriteAllText(path, dtos);
         //////////////////////////////////
 
         string Mus = File.ReadAllText(path);
         Json beats = JsonUtility.FromJson<Json>(Mus);
 
         float current = beats.Song[count];
-      
-      
+
+
         count += 1;
 
-      
 
-     
-
+        
 
 
 
-        if (Shoot)
+
+
+            if (Shoot)
         {
-
+            vegas();
             if (current > 5.0f)
             {
                 Instantiate(arrow[3], transform.position, Quaternion.identity);
+                
 
                 StartCoroutine(CanShoot()); return;
 
@@ -99,7 +126,14 @@ public class instantiante : MonoBehaviour
 
 
         }
-        print(current);
+
+        for (int i = 0; i < amd.Count; i++)
+        {
+            if (amd[i] == null)
+            {
+                amd.Remove(amd[i]);
+            }
+        }
     }
     public IEnumerator CanShoot()
     {
