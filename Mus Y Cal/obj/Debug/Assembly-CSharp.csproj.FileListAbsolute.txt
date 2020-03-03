@@ -1,2 +1,4 @@
 C:\Users\Angie\Downloads\Mus-Y-CAL-master\Mus-Y-CAL-master\Mus Y Cal\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 C:\Users\Angie\Downloads\Mus-Y-CAL-master\Mus-Y-CAL-master\Mus Y Cal\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\JuegoMax\Mus-Y-CAL\Mus Y Cal\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\JuegoMax\Mus-Y-CAL\Mus Y Cal\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

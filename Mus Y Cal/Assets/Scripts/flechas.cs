@@ -14,13 +14,14 @@ public class flechas : MonoBehaviour
     private float timer = 0;
     public bool active = false;
     public bool left=true;
+    public GameObject[] score;
     
     void Start()
     {
        
-        
+        /*
         textPoint = new TextPoint();
-        textPoint = GameObject.Find("Points").GetComponent<TextPoint>();
+        textPoint = GameObject.Find("Points").GetComponent<TextPoint>();*/
         Destroy(gameObject, 6);
         
     }
@@ -43,10 +44,10 @@ public class flechas : MonoBehaviour
         //print(distance);
         //print(state);
 
-
+/*
         if (left)
         {
-            if (transform.position.x <= 0f)
+            if (transform.position.x <= -0.7f)
             {
                 state = 0;
                 Destroy(gameObject);
@@ -54,18 +55,18 @@ public class flechas : MonoBehaviour
         }
         else
         {
-            if (transform.position.x >= 0f)
+            if (transform.position.x >= 0.7f)
             {
                 state = 0;
                 Destroy(gameObject);
             }
-        }
+        }*/
        
         
         if (active)
         {
 
-                if (distance >= 1.5f && distance <= 3.0f)
+                /*if (distance >= 1.5f && distance <= 3.0f)
                 {
                     state = 0;
 
@@ -80,7 +81,7 @@ public class flechas : MonoBehaviour
                 {
                     state = 3;
                   print("eeeooooooooo");
-                }
+                }*/
 
            
 
@@ -91,24 +92,26 @@ public class flechas : MonoBehaviour
                 {
                     if (state == 0)
                     {
-                        textPoint.point.text = "0";
+                        /*textPoint.point.text = "0";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
-            
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 2)
                     {
+                        /*
                         textPoint.point.text = "250";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
-            
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 3)
                     {
+                        /*
                         textPoint.point.text = "500";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
-              
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     print("top");
                     Destroy(gameObject);
@@ -121,25 +124,26 @@ public class flechas : MonoBehaviour
                 {
                     if (state == 0)
                     {
-                        textPoint.point.text = "0";
+                        /*textPoint.point.text = "0";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
-                    
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 2)
                     {
+                        /*
                         textPoint.point.text = "250";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
-               
-
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 3)
                     {
+                        /*
                         textPoint.point.text = "500";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
-
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     print("down");
                     Destroy(gameObject);
@@ -152,21 +156,26 @@ public class flechas : MonoBehaviour
                 {
                     if (state == 0)
                     {
-                        textPoint.point.text = "0";
+                        /*textPoint.point.text = "0";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 2)
                     {
+                        /*
                         textPoint.point.text = "250";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 3)
                     {
+                        /*
                         textPoint.point.text = "500";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     print("left");
                     Destroy(gameObject);
@@ -179,27 +188,65 @@ public class flechas : MonoBehaviour
                 {
                     if (state == 0)
                     {
-                        textPoint.point.text = "0";
+                        /*textPoint.point.text = "0";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 2)
                     {
+                        /*
                         textPoint.point.text = "250";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     if (state == 3)
                     {
+                        /*
                         textPoint.point.text = "500";
                         textPoint.Grow = true;
-                        textPoint.MarkPoint();
+                        textPoint.MarkPoint();*/
+                        Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
                     }
                     print("right");
                     Destroy(gameObject);
                 }
             }
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //if (active)
+        //{
+            if (other.name == "col1")
+            {
+                state = 3;
+                active = true;
+            }
+            if (other.name == "col2")
+            {
+                state = 2;
+                active = true;
+            }
+        //}
+        if (other.name == "col3")
+            {
+                if (!left)
+                {
+                    state = 0;
+                    Destroy(gameObject);
+                }
+            }
+            if (other.name == "col4")
+            {
+                if (left)
+                {
+                    state = 0;
+                    Destroy(gameObject);
+                }
+            }
     }
 
 }
