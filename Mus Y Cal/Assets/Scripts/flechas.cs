@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class flechas : MonoBehaviour
 {
-
-    public TextPoint textPoint;
+    public TotalScore TotScor;
+   // public TextPoint textPoint;
     public Transform check;
     [SerializeField]public int state;
     public string direccion;
@@ -18,10 +18,10 @@ public class flechas : MonoBehaviour
     
     void Start()
     {
-       
-        /*
-        textPoint = new TextPoint();
-        textPoint = GameObject.Find("Points").GetComponent<TextPoint>();*/
+       // TotScor = new TotalScore();
+        
+       // textPoint = new TextPoint();
+        TotScor = GameObject.Find("Score").GetComponent<TotalScore>();
         Destroy(gameObject, 6);
         
     }
@@ -96,6 +96,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 0;
+                       
                     }
                     if (state == 2)
                     {
@@ -104,6 +106,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 250;
+                  
                     }
                     if (state == 3)
                     {
@@ -112,8 +116,10 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 500;
+                        print(TotScor.Points);
                     }
-                    print("top");
+                    
                     Destroy(gameObject);
                 }
             }
@@ -128,6 +134,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points +=0;
+                     
                     }
                     if (state == 2)
                     {
@@ -136,6 +144,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 250;
+                   
                     }
                     if (state == 3)
                     {
@@ -144,8 +154,10 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 500;
+                    
                     }
-                    print("down");
+                
                     Destroy(gameObject);
                 }
             }
@@ -160,6 +172,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 0;
+                     
                     }
                     if (state == 2)
                     {
@@ -168,6 +182,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 250;
+                      
                     }
                     if (state == 3)
                     {
@@ -176,8 +192,12 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 500;
+                     
+                        
+
                     }
-                    print("left");
+              
                     Destroy(gameObject);
                 }
             }
@@ -192,6 +212,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 0;
+                    
                     }
                     if (state == 2)
                     {
@@ -200,6 +222,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 250;
+                     
                     }
                     if (state == 3)
                     {
@@ -208,8 +232,10 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
+                        TotScor.Points += 500;
+                 
                     }
-                    print("right");
+              
                     Destroy(gameObject);
                 }
             }

@@ -69,11 +69,11 @@ public class instantiante : MonoBehaviour
     void Update()
     {
 
-        // float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
-       //   BetasToSong.Add(sound);
-        //   Json DT = new Json(BetasToSong);
-       //   string dtos = JsonUtility.ToJson(DT, false);
-        //    File.WriteAllText(path, dtos);
+       /*  float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
+          BetasToSong.Add(sound);
+           Json DT = new Json(BetasToSong);
+          string dtos = JsonUtility.ToJson(DT, false);
+           File.WriteAllText(path, dtos);*/
         //////////////////////////////////
 
         string Mus = File.ReadAllText(path);
