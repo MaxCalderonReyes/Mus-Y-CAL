@@ -28,11 +28,8 @@ public class instantiante : MonoBehaviour
    
     //Temporales
 
-
-
     private int count = 0;
  
-   
     void Start()
     {
       
@@ -68,28 +65,21 @@ public class instantiante : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-       /*  float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
-          BetasToSong.Add(sound);
-           Json DT = new Json(BetasToSong);
-          string dtos = JsonUtility.ToJson(DT, false);
-           File.WriteAllText(path, dtos);*/
+        /*
+        float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
+        BetasToSong.Add(sound);
+        Json DT = new Json(BetasToSong);
+        string dtos = JsonUtility.ToJson(DT, false);
+        File.WriteAllText(path, dtos);
+        */
         //////////////////////////////////
-
+        
         string Mus = File.ReadAllText(path);
         Json beats = JsonUtility.FromJson<Json>(Mus);
 
         float current = beats.Song[count];
 
-
         count += 1;
-
-
-        
-
-
-
-
 
             if (Shoot)
         {
@@ -151,6 +141,7 @@ public class instantiante : MonoBehaviour
                 amd.Remove(amd[i]);
             }
         }
+        
     }
     public IEnumerator CanShoot()
     {
