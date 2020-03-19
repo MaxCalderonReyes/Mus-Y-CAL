@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes_Game/Men\xFA.unity"
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes_Game/Mapa.unity
+    guid: 7687c20fea3a1024b8b74280bbc41437
+  - enabled: 1
+    path: Assets/Scenes_Game/Level 01.unity
+    guid: 9767eed7d85ee9f409b811b23c40df1f
+  - enabled: 1
+    path: Assets/Scenes_Game/Level 02.unity
+    guid: 4adff75a761c2bf4f9da302ab384ac71
+  - enabled: 1
+    path: Assets/Scenes_Game/Level 03.unity
+    guid: 347bfc93222a2af4f8f8a5d7a8c602be
   m_configObjects: {}
