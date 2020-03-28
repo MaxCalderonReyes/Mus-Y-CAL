@@ -7,11 +7,11 @@ public class score : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y + 10 * Time.deltaTime, transform.position.z);
+        transform.position += Vector3.up * Time.deltaTime;
+        transform.localScale += new Vector3(0.2f * Time.deltaTime, 0.2f * Time.deltaTime, 0);
+        GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, GetComponent<SpriteRenderer>().color.a - Time.deltaTime);
 
-        GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, GetComponent<SpriteRenderer>().color.a - 5 * Time.deltaTime);
-
-        if(GetComponent<SpriteRenderer>().color.a <= 0)
+        if (GetComponent<SpriteRenderer>().color.a <= 0)
         {
             Destroy(gameObject);
         }

@@ -18,8 +18,8 @@ public class flechas : MonoBehaviour
     
     void Start()
     {
-       // TotScor = new TotalScore();
-        
+        // TotScor = new TotalScore();
+        active = false;
        // textPoint = new TextPoint();
         TotScor = GameObject.Find("Score").GetComponent<TotalScore>();
         Destroy(gameObject, 6);
@@ -30,15 +30,16 @@ public class flechas : MonoBehaviour
     void FixedUpdate()
     {
         timer += Time.deltaTime;
-        if (left)
+        /*if (left)
         {
             transform.position = new Vector3(transform.position.x - 7 * Time.deltaTime, transform.position.y, transform.position.z);
         }
         else
         {
             transform.position = new Vector3(transform.position.x + 7 * Time.deltaTime, transform.position.y, transform.position.z);
-        }
-      
+        }*/
+
+        transform.position += new Vector3((left ? -7 : 7) * Time.deltaTime, 0, 0);
         distance = Vector3.Distance(check.position, transform.position);
 
         //print(distance);
@@ -96,7 +97,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 0;
+                        TotScor.comboCounter = 0;
+                        //TotScor.Points += 0;
                        
                     }
                     if (state == 2)
@@ -106,7 +108,8 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 250;
+                        TotScor.addPoints(250);
+                        TotScor.comboCounter++;
                   
                     }
                     if (state == 3)
@@ -116,10 +119,13 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 500;
+                        TotScor.addPoints(500);
+                        TotScor.spawnObject();
                         print(TotScor.Points);
+                        TotScor.comboCounter++;
                     }
-                    
+
+                    active = false;
                     Destroy(gameObject);
                 }
             }
@@ -134,8 +140,9 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points +=0;
-                     
+                        //TotScor.Points +=0;
+                        TotScor.comboCounter = 0;
+
                     }
                     if (state == 2)
                     {
@@ -144,8 +151,9 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 250;
-                   
+                        TotScor.addPoints(250);
+                        TotScor.comboCounter++;
+
                     }
                     if (state == 3)
                     {
@@ -154,10 +162,13 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 500;
-                    
+                        TotScor.addPoints(500);
+                        TotScor.spawnObject();
+                        TotScor.comboCounter++;
+
                     }
-                
+
+                    active = false;
                     Destroy(gameObject);
                 }
             }
@@ -172,8 +183,9 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 0;
-                     
+                        //TotScor.Points += 0;
+                        TotScor.comboCounter = 0;
+
                     }
                     if (state == 2)
                     {
@@ -182,8 +194,9 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 250;
-                      
+                        TotScor.addPoints(250);
+                        TotScor.comboCounter++;
+
                     }
                     if (state == 3)
                     {
@@ -192,12 +205,14 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 500;
-                     
-                        
+                        TotScor.addPoints(500);
+                        TotScor.spawnObject();
+                        TotScor.comboCounter++;
+
 
                     }
-              
+
+                    active = false;
                     Destroy(gameObject);
                 }
             }
@@ -212,8 +227,9 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[0], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 0;
-                    
+                        TotScor.comboCounter = 0;
+                        //TotScor.Points += 0;
+
                     }
                     if (state == 2)
                     {
@@ -222,8 +238,9 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[1], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 250;
-                     
+                        TotScor.addPoints(250);
+                        TotScor.comboCounter++;
+
                     }
                     if (state == 3)
                     {
@@ -232,10 +249,13 @@ public class flechas : MonoBehaviour
                         textPoint.Grow = true;
                         textPoint.MarkPoint();*/
                         Instantiate(score[2], new Vector3(0.09f, 1.44f, 0), Quaternion.identity);
-                        TotScor.Points += 500;
-                 
+                        TotScor.addPoints(500);
+                        TotScor.spawnObject();
+                        TotScor.comboCounter++;
+
                     }
-              
+
+                    active = false;
                     Destroy(gameObject);
                 }
             }
