@@ -18,10 +18,12 @@ public class flechas : MonoBehaviour
     
     void Start()
     {
+       
         // TotScor = new TotalScore();
         active = false;
        // textPoint = new TextPoint();
         TotScor = GameObject.Find("Score").GetComponent<TotalScore>();
+        GameManager.instancia.flechas.Add(this);
         Destroy(gameObject, 6);
         
     }

@@ -577,7 +577,6 @@ GameObject:
   - component: {fileID: 363007153}
   - component: {fileID: 363007156}
   - component: {fileID: 363007155}
-  - component: {fileID: 363007157}
   - component: {fileID: 363007154}
   m_Layer: 5
   m_Name: LVL1Button
@@ -704,21 +703,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363007152}
   m_CullTransparentMesh: 0
---- !u!114 &363007157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 363007152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49a8907b56870f342b5ebbe0b0a574a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 1
-  Nivl: 1
-  lvl: {fileID: 0}
 --- !u!1 &386061883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,7 +1829,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c47b1c1096260d842957580e4530921d, type: 3}
-  m_Color: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
+  m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2035,6 +2019,7 @@ GameObject:
   - component: {fileID: 1075880013}
   - component: {fileID: 1075880012}
   - component: {fileID: 1075880011}
+  - component: {fileID: 1075880014}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2107,6 +2092,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1075880014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075880010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a8907b56870f342b5ebbe0b0a574a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaBotones:
+  - {fileID: 1744094824}
+  - {fileID: 1469501070}
+  Active: 0
+  sprt:
+  - {fileID: 935824724}
+  - {fileID: 386061884}
+  candado:
+  - {fileID: 119595109}
+  - {fileID: 1021457288}
 --- !u!1 &1174126699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2269,7 +2276,6 @@ GameObject:
   - component: {fileID: 1469501072}
   - component: {fileID: 1469501071}
   - component: {fileID: 1469501070}
-  - component: {fileID: 1469501073}
   m_Layer: 5
   m_Name: 'LVL3Button '
   m_TagString: Untagged
@@ -2326,7 +2332,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2395,21 +2401,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469501068}
   m_CullTransparentMesh: 0
---- !u!114 &1469501073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469501068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49a8907b56870f342b5ebbe0b0a574a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 0
-  Nivl: 3
-  lvl: {fileID: 1469501068}
 --- !u!1 &1744094822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,7 +2413,6 @@ GameObject:
   - component: {fileID: 1744094826}
   - component: {fileID: 1744094825}
   - component: {fileID: 1744094824}
-  - component: {fileID: 1744094827}
   m_Layer: 5
   m_Name: 'LVL2Button '
   m_TagString: Untagged
@@ -2479,7 +2469,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2548,21 +2538,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744094822}
   m_CullTransparentMesh: 0
---- !u!114 &1744094827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744094822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49a8907b56870f342b5ebbe0b0a574a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Active: 0
-  Nivl: 2
-  lvl: {fileID: 1744094822}
 --- !u!1 &1804312880
 GameObject:
   m_ObjectHideFlags: 0

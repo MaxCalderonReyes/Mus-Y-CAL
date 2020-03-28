@@ -1,28 +1,44 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActiveButtonLvls : MonoBehaviour
 {
+    public static ActiveButtonLvls instancia;
+    public Button[] listaBotones;
     [SerializeField] private bool Active;
-    [SerializeField] private int Nivl;
-    [SerializeField] public GameObject lvl;
+    public SpriteRenderer[] sprt;
+    public GameObject[] candado;
+
     void Start()
     {
-        if(!Active)
-        this.gameObject.SetActive(false);
+        
+        if (instancia == null) instancia = this;
+       
+            listaBotones[0].interactable = false;
+        listaBotones[1].interactable = false;
     }
 
     // Update is called once per frame
     void Update()
-    {/*
-       //if(Aca ingresa dato para que se active && Nivl == 2)
+    {
+        if (Input.GetKeyDown(KeyCode.P) )
         {
-            lvl.SetActive(true);
+            print("A");
+            listaBotones[0].interactable = true;
+            print("Activo");
+           sprt[0].color = new Color(255, 255, 255, 255);
+            print("cambio de color");
+      candado[0].SetActive(false);
+            print("se fue el candado");
         }
-        //if(Aca ingresa dato para que se active && Nivl == 2)
+        if (Input.GetKeyDown(KeyCode.O))
         {
-            lvl.SetActive(true);
-        }*/
+            listaBotones[1].interactable = true;
+          sprt[1].color = new Color(255, 255, 255, 255);
+         
+           candado[1].SetActive(false);
+        }
     }
 }

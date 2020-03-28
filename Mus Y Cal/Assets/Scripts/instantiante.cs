@@ -40,24 +40,24 @@ public class instantiante : MonoBehaviour
 
     void vegas()
     {
-        foreach (flechas go in FindObjectsOfType<flechas>())
+        foreach (flechas go in GameManager.instancia.flechas)
         {
-            bool existe = amd.Contains(go);
+            bool existe = GameManager.instancia.flechas.Contains(go);
             if (!existe)
             {
-                amd.Add(go);
+                GameManager.instancia.flechas.Add(go);
             }
         }
 
-        for (int i = 0; i < amd.Count; i++)
+        for (int i = 0; i < GameManager.instancia.flechas.Count; i++)
         {
                 if(i == 0)
                 {
-                    amd[i].active = true;
+                GameManager.instancia.flechas[i].active = true;
                 }
                 else
                 {
-                    amd[i].active = false;
+                GameManager.instancia.flechas[i].active = false;
                 }
         }
     }
@@ -134,11 +134,11 @@ public class instantiante : MonoBehaviour
 
         }
 
-        for (int i = 0; i < amd.Count; i++)
+        for (int i = 0; i < GameManager.instancia.flechas.Count; i++)
         {
-            if (amd[i] == null)
+            if (GameManager.instancia.flechas[i] == null)
             {
-                amd.Remove(amd[i]);
+                GameManager.instancia.flechas.Remove(GameManager.instancia.flechas[i]);
             }
         }
         
