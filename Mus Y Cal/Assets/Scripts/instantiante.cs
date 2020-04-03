@@ -29,6 +29,7 @@ public class instantiante : MonoBehaviour
     //Temporales
 
     private int count = 0;
+
  
     void Start()
     {
@@ -65,6 +66,7 @@ public class instantiante : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         /*
         float sound= (MusicScript.spectrum[beat] * ExtraScale)+ScaleNormal;
         BetasToSong.Add(sound);

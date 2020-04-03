@@ -909,6 +909,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ParalaxxEfectMuliply: -0.5
+--- !u!1 &297034057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297034058}
+  - component: {fileID: 297034059}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &297034058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297034057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 636.37866, y: 352.29865, z: -78.42151}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &297034059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297034057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874e84bb05c32a5489b71251e0aa393f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tosc: {fileID: 0}
 --- !u!1 &372949137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,16 +2590,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
-        type: 3}
-      propertyPath: m_Name
-      value: check
-      objectReference: {fileID: 0}
-    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2625,6 +2659,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
+        type: 3}
+      propertyPath: m_Name
+      value: check
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928154, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
