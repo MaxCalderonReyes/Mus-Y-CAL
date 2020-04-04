@@ -2315,6 +2315,7 @@ MonoBehaviour:
   - {fileID: 3888208}
   - {fileID: 581694604}
   - {fileID: 2046220174}
+  activador: {fileID: 1075880014}
 --- !u!4 &1454942618
 Transform:
   m_ObjectHideFlags: 0

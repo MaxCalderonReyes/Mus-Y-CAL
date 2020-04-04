@@ -10,7 +10,7 @@ public class managerMapa : MonoBehaviour
     public Image[] Stars1;
     public Image[] Stars2;
     public Image[] Stars3;
-    [HideInInspector]
+    
     public ActiveButtonLvls activador;
 
     void Start()
@@ -44,7 +44,11 @@ public class managerMapa : MonoBehaviour
 
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            print("Delete");
+            PlayerPrefs.DeleteAll();
+        }
         // Texto ///////////////////////////////////////////
         if(P1 != 0)
         {

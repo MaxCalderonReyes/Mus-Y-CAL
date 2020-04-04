@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class managerLvL1 : MonoBehaviour
 {
-    [HideInInspector]
+    
     public TotalScore tosc;
 
     private float timer;
@@ -20,11 +20,13 @@ public class managerLvL1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        print(timer);
+
         timer += Time.deltaTime;
 
-        if(timer >= 260 || Input.GetKeyDown(KeyCode.Q))
+        if(timer >= 245 || Input.GetKeyDown(KeyCode.Q))
         {
-            PlayerPrefs.GetFloat("Puntos1", tosc.Points);
+            PlayerPrefs.SetFloat("Puntos1", tosc.Points);
             SceneManager.LoadScene(1);
         }
     }

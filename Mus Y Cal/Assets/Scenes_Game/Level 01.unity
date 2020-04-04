@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874e84bb05c32a5489b71251e0aa393f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tosc: {fileID: 0}
+  tosc: {fileID: 546915642}
 --- !u!1 &372949137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,11 +1512,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: d92b1a5f66e751d46a78d0f6f5ec767d, type: 3}
-    m_FontSize: 25
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 40
+    m_MaxSize: 70
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1552,7 +1552,7 @@ MonoBehaviour:
   - {fileID: 159276974}
   Score: {fileID: 546915640}
   reference: {fileID: 1037100479}
-  combo: {fileID: 546915640}
+  combo: {fileID: 1637457600}
   comboCounter: 0
 --- !u!1 &552871768
 GameObject:
@@ -2590,6 +2590,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
+        type: 3}
+      propertyPath: m_Name
+      value: check
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2659,16 +2669,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
-        type: 3}
-      propertyPath: m_Name
-      value: check
-      objectReference: {fileID: 0}
-    - target: {fileID: 2893913561273928155, guid: 37f60078bb611334fa5657fb87cef8f3,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928154, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
