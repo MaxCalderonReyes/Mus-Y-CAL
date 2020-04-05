@@ -29,7 +29,7 @@ public class TotalScore : MonoBehaviour
         }
     }
 
-    private int[] scoreStamp = new int[] { 10000, 25000, 30000, 45000, 50000 };
+    private int[] scoreStamp = new int[] { 25000, 35000, 45000, 55000, 65000 };
     private int activeStars = 0;
 
     // Update is called once per frame

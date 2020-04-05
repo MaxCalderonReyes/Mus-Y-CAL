@@ -17,7 +17,7 @@ public class managerMapa : MonoBehaviour
     {
         if (PlayerPrefs.HasKey("Puntos1"))
         {
-            PlayerPrefs.GetFloat("Puntos1", P1);
+           P1 =  PlayerPrefs.GetFloat("Puntos1");
         }
         else
         {
@@ -25,7 +25,7 @@ public class managerMapa : MonoBehaviour
         }
         if (PlayerPrefs.HasKey("Puntos2"))
         {
-            PlayerPrefs.GetFloat("Puntos2", P2);
+            P2 = PlayerPrefs.GetFloat("Puntos2", P2);
         }
         else
         {
@@ -33,7 +33,7 @@ public class managerMapa : MonoBehaviour
         }
         if (PlayerPrefs.HasKey("Puntos2"))
         {
-            PlayerPrefs.GetFloat("Puntos2", P2);
+            P3 = PlayerPrefs.GetFloat("Puntos2", P2);
         }
         else
         {
@@ -44,6 +44,7 @@ public class managerMapa : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.D))
         {
             print("Delete");
@@ -77,25 +78,25 @@ public class managerMapa : MonoBehaviour
 
         ////////////////////////////////////////////////////////
         
-        if(P1 >= 10000 && P1 < 25000)
+        if(P1 >= 25000 && P1 < 35000)
         {
             Stars1[0].color = new Color(255, 255, 0, 255);
         }
 
-        else if (P1 >= 25000 && P1 < 30000)
+        else if (P1 >= 35000 && P1 < 45000)
         {
             Stars1[0].color = new Color(255, 255, 0, 255);
             Stars1[1].color = new Color(255, 255, 0, 255);
         }
 
-        else if (P1 >= 30000 && P1 < 45000)
+        else if (P1 >= 45000 && P1 < 55000)
         {
             Stars1[0].color = new Color(255, 255, 0, 255);
             Stars1[1].color = new Color(255, 255, 0, 255);
             Stars1[2].color = new Color(255, 255, 0, 255);
         }
 
-        else if (P1 >= 45000 && P1 < 50000)
+        else if (P1 >= 55000 && P1 < 65000)
         {
             Stars1[0].color = new Color(255, 255, 0, 255);
             Stars1[1].color = new Color(255, 255, 0, 255);
@@ -103,7 +104,7 @@ public class managerMapa : MonoBehaviour
             Stars1[3].color = new Color(255, 255, 0, 255);
         }
 
-        else if (P1 >= 50000)
+        else if (P1 >= 65000)
         {
             Stars1[0].color = new Color(255, 255, 0, 255);
             Stars1[1].color = new Color(255, 255, 0, 255);
