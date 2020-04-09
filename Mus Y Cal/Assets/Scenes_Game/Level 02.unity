@@ -3039,7 +3039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1183670454
 Transform:
   m_ObjectHideFlags: 0
@@ -5034,17 +5034,17 @@ PrefabInstance:
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3416562
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3416562
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3416562
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928154, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
@@ -5462,6 +5462,9 @@ MonoBehaviour:
   - {fileID: 485675539}
   - {fileID: 129671522}
   Score: {fileID: 1950444136}
+  reference: {fileID: 0}
+  combo: {fileID: 0}
+  comboCounter: 0
 --- !u!114 &1950444136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5633,7 +5636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2059299584
 Transform:
   m_ObjectHideFlags: 0

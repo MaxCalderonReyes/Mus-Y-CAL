@@ -38,7 +38,7 @@ public class TotalScore : MonoBehaviour
         combo.text = comboCounter.ToString();
         if (comboCounter != 0)
         {
-            combo.color = new Color(255, 255, 255, 255); 
+            combo.color = new Color(255, 255, 255, 255);
         }
         else
         {
@@ -53,7 +53,6 @@ public class TotalScore : MonoBehaviour
         if (Points > 5000)
         {
             stars[0].SetActive(true);
-
             if (Points > 15000)
             {
                 stars[1].SetActive(true);
@@ -66,7 +65,6 @@ public class TotalScore : MonoBehaviour
                         if (Points > 30000)
                         {
                             stars[4].SetActive(true);
-
                         }
                     }
                 }

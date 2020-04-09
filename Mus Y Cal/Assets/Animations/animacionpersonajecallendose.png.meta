@@ -1,0 +1,1878 @@
+fileFormatVersion: 2
+guid: 6a49b343ca589f64bb1cb2c0c94e2181
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8197543772659107443
+    second: animacionpersonajecallendose_0
+  - first:
+      213: 7910261809935079987
+    second: animacionpersonajecallendose_1
+  - first:
+      213: -2330699960771331605
+    second: animacionpersonajecallendose_2
+  - first:
+      213: -4735167983161664849
+    second: animacionpersonajecallendose_3
+  - first:
+      213: 6091945018491271857
+    second: animacionpersonajecallendose_4
+  - first:
+      213: 7492443167065161165
+    second: animacionpersonajecallendose_5
+  - first:
+      213: 1141342311328394557
+    second: animacionpersonajecallendose_6
+  - first:
+      213: -7298042748408217395
+    second: animacionpersonajecallendose_7
+  - first:
+      213: 5178350343066465621
+    second: animacionpersonajecallendose_8
+  - first:
+      213: -6982982548923176049
+    second: animacionpersonajecallendose_9
+  - first:
+      213: -6649054412058771506
+    second: animacionpersonajecallendose_10
+  - first:
+      213: 7205373397267880952
+    second: animacionpersonajecallendose_11
+  - first:
+      213: -8483853310283781281
+    second: animacionpersonajecallendose_12
+  - first:
+      213: 5633450356320468665
+    second: animacionpersonajecallendose_13
+  - first:
+      213: 5977946399057685498
+    second: animacionpersonajecallendose_14
+  - first:
+      213: 2024769942997573350
+    second: animacionpersonajecallendose_15
+  - first:
+      213: -5140080191749879310
+    second: animacionpersonajecallendose_16
+  - first:
+      213: 862938228334609941
+    second: animacionpersonajecallendose_17
+  - first:
+      213: 4006203299336385465
+    second: animacionpersonajecallendose_18
+  - first:
+      213: -8032280764499924424
+    second: animacionpersonajecallendose_19
+  - first:
+      213: 6347260190970951323
+    second: animacionpersonajecallendose_20
+  - first:
+      213: 9001922830143469093
+    second: animacionpersonajecallendose_21
+  - first:
+      213: -5259012455857153785
+    second: animacionpersonajecallendose_22
+  - first:
+      213: 6192633812438912847
+    second: animacionpersonajecallendose_23
+  - first:
+      213: 2741900274991926674
+    second: animacionpersonajecallendose_24
+  - first:
+      213: 7760727396684165596
+    second: animacionpersonajecallendose_25
+  - first:
+      213: 3685814542052240076
+    second: animacionpersonajecallendose_26
+  - first:
+      213: -8105646243238134766
+    second: animacionpersonajecallendose_27
+  - first:
+      213: 941062607437114044
+    second: animacionpersonajecallendose_28
+  - first:
+      213: -3252945900659951129
+    second: animacionpersonajecallendose_29
+  - first:
+      213: 5373521522053606633
+    second: animacionpersonajecallendose_30
+  - first:
+      213: -4256953242641165462
+    second: animacionpersonajecallendose_31
+  - first:
+      213: 736549739691526455
+    second: animacionpersonajecallendose_32
+  - first:
+      213: -7095009645506120376
+    second: animacionpersonajecallendose_33
+  - first:
+      213: -8153491410805234632
+    second: animacionpersonajecallendose_34
+  - first:
+      213: -6725357825856923313
+    second: animacionpersonajecallendose_35
+  - first:
+      213: 8166659533136156239
+    second: animacionpersonajecallendose_36
+  - first:
+      213: 2967112971363864360
+    second: animacionpersonajecallendose_37
+  - first:
+      213: 5795604470748897369
+    second: animacionpersonajecallendose_38
+  - first:
+      213: 1336293359669902348
+    second: animacionpersonajecallendose_39
+  - first:
+      213: 5038669213034617241
+    second: animacionpersonajecallendose_40
+  - first:
+      213: 3269046432443617361
+    second: animacionpersonajecallendose_41
+  - first:
+      213: 7512907718321024565
+    second: animacionpersonajecallendose_42
+  - first:
+      213: -6584438047629745095
+    second: animacionpersonajecallendose_43
+  - first:
+      213: -5910902582371022621
+    second: animacionpersonajecallendose_44
+  - first:
+      213: -5272377611372932288
+    second: animacionpersonajecallendose_45
+  - first:
+      213: -1977608222226186510
+    second: animacionpersonajecallendose_46
+  - first:
+      213: 6998167914450641367
+    second: animacionpersonajecallendose_47
+  - first:
+      213: -6185394824825972565
+    second: animacionpersonajecallendose_48
+  - first:
+      213: 1735838082454555128
+    second: animacionpersonajecallendose_49
+  - first:
+      213: -5686042046379732971
+    second: animacionpersonajecallendose_50
+  - first:
+      213: 6667023392349376247
+    second: animacionpersonajecallendose_51
+  - first:
+      213: 1154253072116159002
+    second: animacionpersonajecallendose_52
+  - first:
+      213: 6545234342959388215
+    second: animacionpersonajecallendose_53
+  - first:
+      213: -2711365791199858229
+    second: animacionpersonajecallendose_54
+  - first:
+      213: -6907186168628058349
+    second: animacionpersonajecallendose_55
+  - first:
+      213: 860888845510824235
+    second: animacionpersonajecallendose_56
+  - first:
+      213: -2225953149954225428
+    second: animacionpersonajecallendose_57
+  - first:
+      213: 387825953995264417
+    second: animacionpersonajecallendose_58
+  - first:
+      213: -1192960525107343356
+    second: animacionpersonajecallendose_59
+  - first:
+      213: 5731208910033852150
+    second: animacionpersonajecallendose_60
+  - first:
+      213: -7785344253119570576
+    second: animacionpersonajecallendose_61
+  - first:
+      213: 6686023456853285324
+    second: animacionpersonajecallendose_62
+  - first:
+      213: 4286666143528440444
+    second: animacionpersonajecallendose_63
+  - first:
+      213: -8633966689899517069
+    second: animacionpersonajecallendose_64
+  - first:
+      213: 2475831121323803640
+    second: animacionpersonajecallendose_65
+  - first:
+      213: 2444406080842634792
+    second: animacionpersonajecallendose_66
+  - first:
+      213: -8366526123330807797
+    second: animacionpersonajecallendose_67
+  - first:
+      213: 457902570031052413
+    second: animacionpersonajecallendose_68
+  - first:
+      213: -6991986042796529745
+    second: animacionpersonajecallendose_69
+  - first:
+      213: 3586034168748589285
+    second: animacionpersonajecallendose_70
+  - first:
+      213: -8912322426121436868
+    second: animacionpersonajecallendose_71
+  - first:
+      213: 3567725728528041821
+    second: animacionpersonajecallendose_72
+  - first:
+      213: -7641960484283524678
+    second: animacionpersonajecallendose_73
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3707
+        width: 220
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e8a0d9f3cbbab4eb2f0cd5cf9e0944
+      internalID: -8197543772659107443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 3707
+        width: 218
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36295b7306d0db146acfd9d8bf8363e6
+      internalID: 7910261809935079987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_2
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 3707
+        width: 218
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6390cd2c6fb6d5242ac3674d21ba0272
+      internalID: -2330699960771331605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_3
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 3707
+        width: 220
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fae524a82b90f44a9d9648fc697af9a
+      internalID: -4735167983161664849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_4
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 3707
+        width: 218
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009a7409bd287334bad41464904e8400
+      internalID: 6091945018491271857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_5
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 3707
+        width: 208
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cfffd13a14dda4791f87a165b5d6bf
+      internalID: 7492443167065161165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_6
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 3707
+        width: 210
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f68c4ae6e3d6841af830dca6944054
+      internalID: 1141342311328394557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_7
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 3707
+        width: 210
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6204cc30823d9934596d439177100453
+      internalID: -7298042748408217395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_8
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 3707
+        width: 208
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17afb677c8dd3f4d89052bab763a2c7
+      internalID: 5178350343066465621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3283
+        width: 208
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04868d744936a5348ae192787272249e
+      internalID: -6982982548923176049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_10
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3283
+        width: 198
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da11e146bf6a24442b6acbbe56316f88
+      internalID: -6649054412058771506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_11
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3283
+        width: 196
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678a8e898c97b99448fda19b5773326e
+      internalID: 7205373397267880952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_12
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 3283
+        width: 196
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f92855072047cf48b2f0920c52d6eab
+      internalID: -8483853310283781281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_13
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 3283
+        width: 196
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648a116b56a2ab84b9f6e39390fe99ef
+      internalID: 5633450356320468665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_14
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 3283
+        width: 196
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c763976b03733d840a80d07fe6ebc6ea
+      internalID: 5977946399057685498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_15
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 3293
+        width: 298
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15efed88500561d4d9e419d9b28cbd92
+      internalID: 2024769942997573350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_16
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 3293
+        width: 299
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60259e86a72e4c84e9be66eca41d0d41
+      internalID: -5140080191749879310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_17
+      rect:
+        serializedVersion: 2
+        x: 3475
+        y: 3293
+        width: 298
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93329e12cd6b0c546a3ef08c40b0cb34
+      internalID: 862938228334609941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2869
+        width: 300
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332b8b38ad14ae641b38ee17a6b64644
+      internalID: 4006203299336385465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_19
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2869
+        width: 298
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5490de1e24a9150468658f5cab3ea728
+      internalID: -8032280764499924424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_20
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2877
+        width: 386
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c51ca2938a94db4496886043651076d
+      internalID: 6347260190970951323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_21
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2877
+        width: 386
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05c2e28853dac4459d310a33ea1b9be
+      internalID: 9001922830143469093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_22
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 2877
+        width: 388
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852e573d27714b944be1612893cdf411
+      internalID: -5259012455857153785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_23
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 2877
+        width: 386
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca890fa95c9cf2c46a03f0ca28c77c2b
+      internalID: 6192633812438912847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_24
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 2877
+        width: 386
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a805e1c608214da15bd6c26c2d6bb
+      internalID: 2741900274991926674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_25
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2875
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3987e11c06905ad4294a3b9783defaa7
+      internalID: 7760727396684165596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_26
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 2875
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5454c3b2b8e33b740a196ffd3d91ae49
+      internalID: 3685814542052240076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2453
+        width: 374
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f048f1735b2551468adbc509c6c5b42
+      internalID: -8105646243238134766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_28
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2451
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d964298ad72f37459d27b0db677fa2a
+      internalID: 941062607437114044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_29
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 2453
+        width: 374
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a08ddc39298a342a212d96375d07ca
+      internalID: -3252945900659951129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_30
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2453
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2175c13771a504cbeb04cf30aa193f
+      internalID: 5373521522053606633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_31
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 2453
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e701711cfe63e4d96e97a7380904bf
+      internalID: -4256953242641165462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_32
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 2451
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8811430f0d9764b9538560e910c1d3
+      internalID: 736549739691526455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_33
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 2453
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea3197b79d2ef34a88120fbb9a06c66
+      internalID: -7095009645506120376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_34
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2453
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c044a0d313cbcb48b41b49ead8e4cd8
+      internalID: -8153491410805234632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_35
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 2453
+        width: 374
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02a228657275e247b9a29e6690a3b4e
+      internalID: -6725357825856923313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2029
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cec23120c8fd140a53951186ed6a05
+      internalID: 8166659533136156239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2029
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2930c30c3e5639445888211692fcb99a
+      internalID: 2967112971363864360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_38
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 2029
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99039ae86de4b0f43bfa194eb1fed73a
+      internalID: 5795604470748897369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_39
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2029
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f88bcebd3256e444bdd2b6839e60c28
+      internalID: 1336293359669902348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_40
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 2029
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3e932bd8500bd41a4ef0f262159836
+      internalID: 5038669213034617241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_41
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 2029
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116f8379500234e4b81f6d7e13cb226a
+      internalID: 3269046432443617361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_42
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 2029
+        width: 375
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4974642408de7e4d8d1d7f773f0c64b
+      internalID: 7512907718321024565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_43
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2029
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131ccac53eba3b34d9f12719efae911a
+      internalID: -6584438047629745095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_44
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 2029
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc549ba34d91e7f438e25cfa480894ee
+      internalID: -5910902582371022621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1605
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efbcbe6f9d9e1c4f9044d9b8a1f6a0c
+      internalID: -5272377611372932288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1605
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097ed529858ec264dbcd70a7c6874b2e
+      internalID: -1977608222226186510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_47
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1605
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360b4cc9d880dad40984880c32dacd09
+      internalID: 6998167914450641367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_48
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1605
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3a7c73674f8e94aa5d4858bacda6c3
+      internalID: -6185394824825972565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_49
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1605
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e71babf20772148996a515938296e8
+      internalID: 1735838082454555128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_50
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 1605
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80917ca9bca7214d86058c1e42e98a2
+      internalID: -5686042046379732971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_51
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 1606
+        width: 374
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1033071692ecab947b46974fd34ab724
+      internalID: 6667023392349376247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_52
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1605
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9bfdc765a9f6541abfdeec3d9d0d77
+      internalID: 1154253072116159002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_53
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1606
+        width: 374
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8295a2f85712df847937f9e7bef630ec
+      internalID: 6545234342959388215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1183
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c727d420013a341bc1d484876ae0e4
+      internalID: -2711365791199858229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_55
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1183
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5525c52f2670ba468c631dea6db450d
+      internalID: -6907186168628058349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_56
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1183
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0ae5fbee3161c41b663e07aa690463
+      internalID: 860888845510824235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_57
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1183
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761471ec1b1cc224faf932268828e08f
+      internalID: -2225953149954225428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_58
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1183
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f42a928035c748a807faac06ba15a
+      internalID: 387825953995264417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_59
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 1183
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02be7c60b996ebe4cbe3b31c0d777b18
+      internalID: -1192960525107343356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_60
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 1183
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7404737f6cd3caf4dbd4addb6d25df21
+      internalID: 5731208910033852150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_61
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1183
+        width: 376
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c79ab016f1454419197771a6e10834
+      internalID: -7785344253119570576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_62
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1183
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319a93d1d59872b4b92e084a772b8d9e
+      internalID: 6686023456853285324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_63
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 761
+        width: 374
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009191fa230b00f43b1a50f353133527
+      internalID: 4286666143528440444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_64
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 761
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2235b5991a633c4f8c2fa8e198e7365
+      internalID: -8633966689899517069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_65
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 761
+        width: 374
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9ccc024ec79514bb20fd61be2c2122
+      internalID: 2475831121323803640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_67
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 761
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0948c1ccb05d6334fbba9fd36521dca1
+      internalID: -8366526123330807797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_68
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 761
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869acc3dc40cc03449d930cad1409504
+      internalID: 457902570031052413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_69
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 761
+        width: 374
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb274f1fb18ec240973e1d1dfd021d1
+      internalID: -6991986042796529745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_70
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 761
+        width: 376
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8459eb28b05a14284d30f0c9d2ef00
+      internalID: 3586034168748589285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_71
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 761
+        width: 374
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035005b5e275c3748b97c757ff0b83e5
+      internalID: -8912322426121436868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 337
+        width: 374
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cedc0a1326d0604895fd742aee9fc62
+      internalID: 3567725728528041821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacionpersonajecallendose_66
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 331
+        width: 440
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21d4cc66f677dc40b63da6c56ba2d26
+      internalID: 2444406080842634792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7b70a61fb94a1ce47a31e881a4403a85
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

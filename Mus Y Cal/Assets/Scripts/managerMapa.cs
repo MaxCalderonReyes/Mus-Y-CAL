@@ -10,14 +10,14 @@ public class managerMapa : MonoBehaviour
     public Image[] Stars1;
     public Image[] Stars2;
     public Image[] Stars3;
-    
+
     public ActiveButtonLvls activador;
 
     void Start()
     {
         if (PlayerPrefs.HasKey("Puntos1"))
         {
-           P1 =  PlayerPrefs.GetFloat("Puntos1");
+            P1 = PlayerPrefs.GetFloat("Puntos1");
         }
         else
         {
@@ -51,7 +51,7 @@ public class managerMapa : MonoBehaviour
             PlayerPrefs.DeleteAll();
         }
         // Texto ///////////////////////////////////////////
-        if(P1 != 0)
+        if (P1 != 0)
         {
             TxT[0].text = P1.ToString();
         }
@@ -77,8 +77,8 @@ public class managerMapa : MonoBehaviour
         }
 
         ////////////////////////////////////////////////////////
-        
-        if(P1 >= 25000 && P1 < 35000)
+
+        if (P1 >= 25000 && P1 < 35000)
         {
             Stars1[0].color = new Color(255, 255, 0, 255);
         }

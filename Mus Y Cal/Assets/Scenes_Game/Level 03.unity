@@ -2617,6 +2617,9 @@ MonoBehaviour:
   - {fileID: 595309168}
   - {fileID: 1030136215}
   Score: {fileID: 973601569}
+  reference: {fileID: 0}
+  combo: {fileID: 0}
+  comboCounter: 0
 --- !u!114 &973601569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5340,17 +5343,17 @@ PrefabInstance:
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3416562
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3416562
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928153, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3416562
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2893913561273928154, guid: 37f60078bb611334fa5657fb87cef8f3,
         type: 3}

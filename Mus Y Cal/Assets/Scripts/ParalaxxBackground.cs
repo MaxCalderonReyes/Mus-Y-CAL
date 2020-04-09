@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ParalaxxBackground : MonoBehaviour
 {
-    [SerializeField] private float ParalaxxEfectMuliply;
+    [SerializeField] public float ParalaxxEfectMuliply;
     private Transform CamaraTransform;
 
     private float UnitSizeX;
