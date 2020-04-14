@@ -2,30 +2,39 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ButtonManager : MonoBehaviour
 {
     private bool Pause=false;
     public GameObject buttonPause;
-
+    public SpriteRenderer imagen;
+   
     public void Start()
     {
         buttonPause.SetActive(false);
+        imagen.enabled = false;
     }
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if(managerLvL1.instancia.CanPause==false)
         {
-            PauseGame();
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                PauseGame();
+            }
         }
+      
     }
     public void PauseGame()
     {
-      
+        
         Pause = !Pause;
-        buttonPause.SetActive(!Pause);
-        Time.timeScale = (Pause) ? 1 : 0;
-       
+        buttonPause.SetActive(Pause);
+      
+        Time.timeScale = (Pause) ? 0 : 1;
+        imagen.enabled = Pause;
+
 
     }
    public void SeleccionLevel()

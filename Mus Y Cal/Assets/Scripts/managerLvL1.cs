@@ -18,6 +18,7 @@ public class managerLvL1 : MonoBehaviour
     private float duration=5f;
     public bool activescale = true;
     public float rate = 0;
+    public bool CanPause=false;
     //pararFondoAvansarPlayer
     
     [SerializeField]private List<ParalaxxBackground> fondos;
@@ -50,7 +51,7 @@ public class managerLvL1 : MonoBehaviour
             {
                
                 StartCoroutine(wait());
-              
+                CanPause = true;
                 objects.canMove = true;
 
                 if (activescale)
@@ -76,6 +77,7 @@ public class managerLvL1 : MonoBehaviour
             }
             else
             {
+                CanPause = true;
              StartCoroutine(waitLose());
                 
               PlayerAnim.instancia.animacion.SetBool("Down",true);
